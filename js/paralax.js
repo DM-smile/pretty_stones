@@ -57,7 +57,7 @@ const callbackLeft = function (entries, observer) {
                entry.target.classList.remove('trans-off')
                entry.target.classList.add('par-left-on')
                entry.target.timerId = null
-            }, 10000)
+            }, 15000)
          }
       }
    })
@@ -81,7 +81,7 @@ const callbackRight = function (entries, observer) {
                entry.target.classList.remove('trans-off')
                entry.target.classList.add('par-right-on')
                entry.target.timerId = null
-            }, 10000)
+            }, 15000)
          }
       }
    })
@@ -105,7 +105,7 @@ const callbackStatic = function (entries, observer) {
                entry.target.classList.remove('trans-off')
                entry.target.classList.add('par-static-on')
                entry.target.timerId = null
-            }, 10000)
+            }, 15000)
          }
       }
    })
@@ -129,7 +129,7 @@ const callbackBottom = function (entries, observer) {
                entry.target.classList.remove('trans-off')
                entry.target.classList.add('par-bottom-on')
                entry.target.timerId = null
-            }, 10000)
+            }, 15000)
          }
       }
    })
