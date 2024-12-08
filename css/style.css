@@ -346,6 +346,9 @@ body {
       -ms-flex-align: center;
           align-items: center;
   z-index: 10;
+  -webkit-transform: none !important;
+      -ms-transform: none !important;
+          transform: none !important;
 }
 @media (min-width: 75em) {
   .header__body {
@@ -499,9 +502,6 @@ body {
   width: 100%;
 }
 
-.menu {
-  width: 100%;
-}
 @media (max-width: 48rem) {
   .menu {
     display: -webkit-box;
@@ -637,12 +637,12 @@ body {
 }
 
 .hero {
-  position: relative;
   height: calc(100vh - 6.5rem);
   background-color: rgba(10, 4, 56, 0.58);
 }
 @media (max-width: 48rem) {
   .hero {
+    position: relative;
     max-height: 34.375rem;
   }
 }
