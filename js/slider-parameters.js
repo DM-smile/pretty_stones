@@ -8,7 +8,7 @@ const swiperFirst = new Swiper('.popular-first__body', {
    autoplay: {
       delay: 2000,
       disableOnInteraction: false,
-      pauseOnMouseEnter: true,
+      pauseOnMouseEnter: false,
    },
 
    keyboard: {
@@ -58,6 +58,6 @@ const swiperSecond = new Swiper('.popular-second__body', {
    autoplay: {
       delay: 2000,
       disableOnInteraction: false,
-      pauseOnMouseEnter: true,
+      pauseOnMouseEnter: false,
    }
 })
