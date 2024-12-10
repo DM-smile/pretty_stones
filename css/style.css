@@ -1359,6 +1359,12 @@ body {
   font-size: 1rem;
   line-height: 1.2;
 }
+.item-popular-second__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 0.5rem;
+}
 .item-popular-second__data img {
   max-width: 1.09375rem;
   max-height: 1.0625rem;
